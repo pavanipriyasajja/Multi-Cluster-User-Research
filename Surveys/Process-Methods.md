@@ -2,7 +2,7 @@
 
 In our next steps, let’s explore the insights we uncovered from the survey responses. What patterns, challenges, and expectations emerged from engineers working with multi-cluster environments?
 
-## (n) % of Engineers responded to the survey?
+### Engineers responded to the survey?
 
 Finally, from our survey, we received responses from <b>170 engineers</b>. Among them, 159 engineers <b>(93% completion rate)</b> completed all the survey questions, including both required and optional questions. The remaining 11 engineers skipped the optional questions and responded only to the required questions.
 
@@ -11,7 +11,7 @@ Finally, from our survey, we received responses from <b>170 engineers</b>. Among
 We also mentioned during the survey that all responses would be anonymized, and we will not share the raw data directly. 
 Instead, the data has been synthesized and presented in clear and understandable form for the results and aggregated results we are going to share with the multi cluster team as well as Kubecon presentations.
 
-## Process and methods and Tools for analysis
+### Process and methods and Tools for analysis
 
 To initiate the analysis process for the survey responses, we began by studying the data multiple times to fully understand and take ownership of it. This helped us better interpret what engineers were trying to convey.
 We duplicated the original responses and created a separate file named “Analysis.” 
@@ -36,7 +36,7 @@ Then we identified the strongest (most frequent) patterns and rank them from hig
 <b>Tools we used for the qualitative analysis</b>
 
 Text analyzer : <a href="https://www.online-utility.org/text/analyzer.jsp ">Link</a> 
-AI analyzer : <a href=" https://chatgpt.com/g/g-86OiPigfl-ai-text-analyzer ">Link</a>
+AI analyzer : <a href="https://chatgpt.com/g/g-86OiPigfl-ai-text-analyzer">Link</a>
 
 
 <b>Quantitative  Analysis methods and Tools</b>
