@@ -11,7 +11,7 @@ Finally, from our survey, we received responses from <b>170 engineers</b>. Among
 We also mentioned during the survey that all responses would be anonymized, and we will not share the raw data directly. 
 Instead, the data has been synthesized and presented in clear and understandable form for the results and aggregated results we are going to share with the multi cluster team as well as Kubecon presentations.
 
-### Process and methods and Tools for analysis
+### Process and methods and Tools for analysis:
 
 To initiate the analysis process for the survey responses, we began by studying the data multiple times to fully understand and take ownership of it. This helped us better interpret what engineers were trying to convey.
 We duplicated the original responses and created a separate file named “Analysis.” 
@@ -19,7 +19,8 @@ We duplicated the original responses and created a separate file named “Analys
 This ensured that the original data remained intact in case of any accidental changes, and allowed us to reuse and adapt the duplicated data for multiple analysis tasks.
 Next, we filtered and extracted responses where participants mentioned “no,” “-,” “don’t want to mention,” or left questions unanswered. We then consolidated this data in one place to make it easier to review and interpret.
 Finally, we followed a structured process, as outlined below, to identify patterns in the responses.
-<b>Qualitative Analysis methods and Tools</b>
+
+### Qualitative Analysis methods and Tools:
 
 <b>Step 1:</b> Reviewed all the collected data thoroughly to understand it and become familiar with the responses.
 
@@ -40,7 +41,7 @@ Text analyzer : <a href="https://www.online-utility.org/text/analyzer.jsp ">Link
 AI analyzer : <a href="https://chatgpt.com/g/g-86OiPigfl-ai-text-analyzer">Link</a>
 
 
-<b>Quantitative  Analysis methods and Tools</b>
+### Quantitative  Analysis methods and Tools:
 
 
 <b>Step : 1 Review and calculate basic metrics across Quantitative questions</b>
