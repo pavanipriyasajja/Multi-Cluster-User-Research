@@ -20,7 +20,7 @@ Our <b>goal</b> is to make complex multi cluster systems easy to use and turn di
 
 ## So far what we did: 
 
-We conducted the surveys (<a href="Surveys/Survey-design.md">Design</a>, <a href="Surveys/Analysis-Process-Methods.md">Analysis Methods & Process><a/>) one of the user research method and produced the results in the KubeCon NA 2025 (<a href="https://sched.co/27Nlj">Presentation and video</a> )
+We conducted the surveys (<a href="Surveys/Survey-design.md">Design</a>, <a href="Surveys/Analysis-Process-Methods.md">Analysis Methods & Process<a/>) one of the user research method and produced the results in the KubeCon NA 2025 (<a href="https://sched.co/27Nlj">Presentation and video</a> )
 
 ## 📌 Status of the Project:
 
