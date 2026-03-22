@@ -35,7 +35,8 @@ Then we identified the strongest (most frequent) patterns and rank them from hig
 
 <b>Tools we used for the qualitative analysis</b>
 
-Text analyzer : <a href="https://www.online-utility.org/text/analyzer.jsp ">Link</a> 
+Text analyzer : <a href="https://www.online-utility.org/text/analyzer.jsp ">Link</a>
+
 AI analyzer : <a href="https://chatgpt.com/g/g-86OiPigfl-ai-text-analyzer">Link</a>
 
 
