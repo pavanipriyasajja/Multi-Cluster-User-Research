@@ -1,4 +1,4 @@
-# Survey analysis:
+# Survey analysis methods, Process and Tools:
 
 In our next steps, let’s explore the insights we uncovered from the survey responses. What patterns, challenges, and expectations emerged from engineers working with multi-cluster environments?
 
