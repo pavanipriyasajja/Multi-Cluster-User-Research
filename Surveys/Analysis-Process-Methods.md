@@ -68,3 +68,14 @@ Finally, we cross-referenced the quantitative findings with qualitative response
 This approach allowed us to support qualitative insights with percentages and numerical evidence, while also uncovering new patterns grounded in both quantitative and qualitative analysis.
 
 Our <b>final step in the analysis was to reorganize the findings into output artifacts</b> (e.g., Survey Key insights and results, personas, slides, etc.) and present them at KubeCon.
+
+### Iterative Theme Refinement:
+
+The thematic analysis in this study was conducted through multiple iterative passes over the dataset. Rather than treating early results as final, we continuously revisited the raw responses to improve the structure and clarity of the findings.
+
+<b>Themes were refined through multiple iterations</b> to better capture recurring patterns across responses.
+<b>Initial codes were reorganized into higher-level categories</b>, allowing for clearer abstraction and improved interpretability.
+<b>Some themes were merged or split</b> based on consistency, overlap, and strength of supporting data.
+
+This iterative approach strengthens the overall analysis by ensuring that the final themes are not only representative of the data, but also well-structured, consistent, and credible.
+
