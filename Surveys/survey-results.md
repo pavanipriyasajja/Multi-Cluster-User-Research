@@ -46,13 +46,18 @@ User research also revealed two <b>uncommon</b> patterns such as <b>dashboard as
 ## Key findings & Recommendations:
 
 From the data analysis five user research areas emerged these are documentation gap, centralized monitoring, AI driven automation, Operational complexity, Developer UX. Let's see how our recommendations could improve these research areas.
-Review <b>multi-cluster project materials</b> to <b>identify what's missing or outdated. Create practical guides with real examples</b> and work with <b>SIG-Community</b> to <b>build tested documentation</b> for daily engineering work.
-We recommend that to start by <b>identifying current tools, overlaps, and gaps</b> then create a <b>single observability system</b> with <b>common standards</b> for <b>logs, metrics,</b> and <b>data storage, network visibility, AI-connected alerts, and role-based dashboards.</b>
-We recommend AI and automation <b>taking over routine fixes</b> — systems that can predict problems before they happen and act on their own.
 
-We recommend that <b>organizations</b> provide <b>hands-on training</b> in multi-cluster operations and <b>improve zero-trust principles</b> and <b>automation reliability,</b> and <b>encourage knowledge</b> sharing through <b>playbooks</b> and <b>peer learning to close skill gaps</b>
-Study how developers currently work to find what <b>slows them down</b> then use these study <b>insights to build developer friendly solutions</b> on multi cluster operations.
+1. Review <b>multi-cluster project materials</b> to <b>identify what's missing or outdated. Create practical guides with real examples</b> and work with <b>SIG-Community</b> to <b>build tested documentation</b> for daily engineering work.
+
+2.We recommend that to start by <b>identifying current tools, overlaps, and gaps</b> then create a <b>single observability system</b> with <b>common standards</b> for <b>logs, metrics,</b> and <b>data storage, network visibility, AI-connected alerts, and role-based dashboards.</b>
+3. We recommend AI and automation <b>taking over routine fixes</b> — systems that can predict problems before they happen and act on their own.
+
+4. We recommend that <b>organizations</b> provide <b>hands-on training</b> in multi-cluster operations and <b>improve zero-trust principles</b> and <b>automation reliability,</b> and <b>encourage knowledge</b> sharing through <b>playbooks</b> and <b>peer learning to close skill gaps</b>
+
+5. Study how developers currently work to find what <b>slows them down</b> then use these study <b>insights to build developer friendly solutions</b> on multi cluster operations.
+
 The new engineer said, <b><i>“Make it easy.”</i></b>
+
 Our research highlights that the future of multi-cluster management lies in <b>combining technical excellence with human-centered design. </b>
 
 👉 Our research continues with the next step on generating the persona to mapping the workflows. 
