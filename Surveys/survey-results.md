@@ -56,6 +56,8 @@ We asked engineers what they want in <b>future multi-cluster operations</b>. Thr
 
 
 User research also revealed two <b>uncommon</b> patterns such as <b>dashboard as code for functionality</b> and <b>specialized hardware for multi-cluster operations.</b> 
+
+
 <b>One of our Platform Engineers, who manages more than 50 clusters, says that</b> “Multi-clusters provide practical solutions to organizational, technical, and cost-related limitations that a single cluster simply cannot address.” This statement explains that a multi cluster isn’t just a scaling choice. <b>But it’s a strategic evolution toward flexibility, resilience, and innovation.</b>
 
 ## Quantative Highlights:
