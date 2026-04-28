@@ -3,8 +3,15 @@
 
 This report shares what we learned from our user research survey. Our <a href="https://multicluster.sigs.k8s.io/ ">SIG-multi cluster</a> is not only focusing on reducing technical complexity but also focusing on the human side - That’s where our UX research began.
 
-Our <b>goal is simply make complex multi cluster systems easy to use and turn difficult operations into smooth and engineer friendly</b>. We designed surveys for <b>engineers who work with multi clusters</b>. We focused on <b>problem areas on Tooling, Environment, Troubleshooting, Observability, and Collaboration, workflows, architecture, multicluster management and deployment and debugging the challenges when they occur</b>. We included both <b>quantitative and qualitative</b> questions to understand how engineers work, what they use, and why they make certain choices.
-We sent this survey to <b>SIG community channels</b> and received responses from <b>170 engineers</b>. To analyze the research data, we used a <b>text analyzer for written responses</b> and <b>Python for numerical data</b>. This helped us identify <b>patterns between demographics, tools, and challenges, multicluster operations</b>.
+Our <b>goal is simply make complex multi cluster systems easy to use and turn difficult operations into smooth and engineer friendly</b>. 
+
+We designed surveys for <b>engineers who work with multi clusters</b>. We focused on <b>problem areas on Tooling, Environment, Troubleshooting, Observability, and Collaboration, workflows, architecture, multicluster management and deployment and debugging the challenges when they occur</b>. 
+
+We included both <b>quantitative and qualitative</b> questions to understand how engineers work, what they use, and why they make certain choices.
+
+We sent this survey to <b>SIG community channels</b> and received responses from <b>170 engineers</b>. To analyze the research data, we used a <b>text analyzer for written responses</b> and <b>Python for numerical data</b>. 
+
+This helped us identify <b>patterns between demographics, tools, and challenges, multicluster operations</b>.
 (Here is the more information about the method selection and the analysis process= 
 <a href="https://Surveys/Analysis-Process-Methods.md ">Link</a>
 
@@ -15,18 +22,28 @@ Our respondents represent <b>diverse backgrounds</b> such as <b>38% are Platform
 We asked engineers one <b>key question: "Why does your organization run multi-clusters?" And we discovered five common patterns.</b>
 
 The <b>first common pattern is Infrastructure Provider.</b> Engineers deploy clusters across <b>cloud, on-premises, </b>or <b>edge locations.</b> This gives them <b>flexibility</b> and helps <b>avoid vendor lock-in.</b>
+
 Second, Isolation. Teams <b>keep workloads</b> and <b>environments separate</b> for better <b>security</b> and easier <b>management.</b>
+
 Third, Business Unit. <b>Each team gets their own cluster,</b> giving them <b>ownership</b> and making <b>compliance easier.</b>
+
 Fourth, Region. Engineers deploy clusters across different geographic locations for <b>better performance</b> and <b>geo-redundancy</b>. If one region fails, others keep the system running.
+
 And fifth, the <b>most common pattern is Environment separation.</b> Organizations separate <b>development, staging, and production</b> environments. This lets engineers <b>test safely without disturbing live systems.</b>
-Let's move on to the next questions, which shows the key challenges engineers face in multi-cluster operations.Our user research identified four major challenge areas:<b>51% struggle with workload management, 39% with observability, 25% with operational complexity,10% with time management.</b>
+
+Let's move on to the next questions, which shows the key challenges engineers face in multi-cluster operations.Our user research identified four major challenge areas: 
+
+<b>51% struggle with workload management, 39% with observability, 25% with operational complexity,10% with time management.</b>
 
 Engineers struggle daily with cluster management such as <b>stateful workloads, upgrades, configurations, resource distribution, </b>and <b>multi-cluster complexity.</b>
 
-Engineers  struggle to understand <b>what's happening across multiple clusters is very challenging</b> because <b>data is spread across multiple tools.</b> They also complain about <b>networking complexity.</b> During multi-cluster incidents, engineers follow <b>standard on-call</b> processes, but our research shows that <b>every alert feels unique to them</b>—even 
+Engineers  struggle to understand <b>what's happening across multiple clusters is very challenging</b> because <b>data is spread across multiple tools.</b> They also complain about <b>networking complexity.</b> During multi-cluster incidents, engineers follow <b>standard on-call</b> processes, 
+
+but our research shows that <b>every alert feels unique to them</b>—even 
 When <b>alerts look familiar</b>, the <b>context and impact</b> are always different. The real <b>bottleneck</b> is <b>situational awareness</b>. If they know which cluster, which service, and what the impact is, they can act with confidence.
 
 Engineers reported challenges on operational complexity such as <b>context-switching, repetitive tasks, environment setup, missing zero-trust templates, limited team knowledge, and failover scenarios that require manual intervention</b>
+
 Engineers lose countless hours on <b>repeated setups, slow deployments</b>, and <b>troubleshooting</b>. These challenges clearly show the difficulties engineers face when managing multi-clusters."
 
 We asked engineers what they want in <b>future multi-cluster operations</b>. Three clear patterns emerged from research these are 
