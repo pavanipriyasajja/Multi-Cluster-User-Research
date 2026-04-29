@@ -94,5 +94,7 @@ The new engineer said, <b><i>“Make it easy.”</i></b>
 
 Our research highlights that the future of multi-cluster management lies in <b>combining technical excellence with human-centered design. </b>
 
+We presented this results in the <b>Kubecon 2025 NA </b> - Here is the link: (<a href="https://sched.co/27Nlj">Presentation and video link</a> )
+
 👉 Our research continues with the next step on generating the persona to mapping the workflows. 
 
