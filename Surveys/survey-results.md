@@ -21,6 +21,8 @@ Our respondents represent <b>diverse backgrounds</b> such as <b>38% are Platform
 
 We asked engineers one <b>key question: "Why does your organization run multi-clusters?" And we discovered five common patterns.</b>
 
+<img src="image1/common-patterns.png" alt="usecase">
+
 The <b>first common pattern is Infrastructure Provider.</b> Engineers deploy clusters across <b>cloud, on-premises, </b>or <b>edge locations.</b> This gives them <b>flexibility</b> and helps <b>avoid vendor lock-in.</b>
 
 Second, Isolation. Teams <b>keep workloads</b> and <b>environments separate</b> for better <b>security</b> and easier <b>management.</b>
@@ -31,7 +33,9 @@ Fourth, Region. Engineers deploy clusters across different geographic locations 
 
 And fifth, the <b>most common pattern is Environment separation.</b> Organizations separate <b>development, staging, and production</b> environments. This lets engineers <b>test safely without disturbing live systems.</b>
 
-Let's move on to the next questions, which shows the key challenges engineers face in multi-cluster operations.Our user research identified four major challenge areas: 
+Let's move on to the next questions, <b>which shows the key challenges engineers face in multi-cluster operations.Our user research identified four major challenge areas<b>: 
+
+<img src="image1/Keychallenges-4Themes.png" alt="Key-challenges">
 
 <b>51% struggle with workload management, 39% with observability, 25% with operational complexity,10% with time management.</b>
 
@@ -54,9 +58,10 @@ We asked engineers what they want in <b>future multi-cluster operations</b>. Thr
 
 3. <b>A simplified UX</b> with <b>easy to use dashboard</b> and <b>clear documentation</b> and <b>simplified workflows</b> —designed for everyone from new to experienced engineers to use with confidence."
 
-
+<br>
 User research also revealed two <b>uncommon</b> patterns such as <b>dashboard as code for functionality</b> and <b>specialized hardware for multi-cluster operations.</b> 
 
+<img src="image1/ChatGPT Image Sep 29, 2025, 12_04_47 PM.png" alt="Quote">
 
 <b>One of our Platform Engineers, who manages more than 50 clusters, says that</b> “Multi-clusters provide practical solutions to organizational, technical, and cost-related limitations that a single cluster simply cannot address.” This statement explains that a multi cluster isn’t just a scaling choice. <b>But it’s a strategic evolution toward flexibility, resilience, and innovation.</b>
 
