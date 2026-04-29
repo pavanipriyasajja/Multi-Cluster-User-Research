@@ -67,11 +67,60 @@ User research also revealed two <b>uncommon</b> patterns such as <b>dashboard as
 
 ## Quantative Highlights:
 
+### Number of Multi-clusters deploying per month:
+
+we wanted to understand the scale at which engineers operate in multi-cluster environments. To explore this, we asked: <b>“How many clusters do you manage or deploy to currently (per month)?”</b> This question helped us capture both the frequency and scale of interaction engineers have with Kubernetes clusters.
+
+Our first quantitative highlight pie chart showed that <b>45% of engineers manage 1–10 clusters per month</b>, while <b>33% manage between 11–50 clusters,</b> and <b>22% manage more than 50 clusters monthly.</b>
+One of the most notable insights is that a majority of respondents <b>55%—are working with more than 10 clusters per month,</b> indicating a strong presence of medium to large-scale multi-cluster operations. 
+
+This highlights that multi-cluster management is not limited to small-scale use cases, but is widely adopted across more complex and demanding environments.
+These findings suggest that engineers are actively managing and deploying clusters at scale, reinforcing that multi-cluster operations are both a <b>common and growing practice</b>. The variation in scale also points to differing levels of operational complexity, which has direct implications for tooling, scalability, monitoring, and overall efficiency.
+
 <img src="image1/numberofmulticlusterpermonth.png" alt="Multiclusterusage-per-month">
+
+### Deployment location:
+
+To better understand the environments in which Kubernetes clusters are deployed, we asked: “Where are your clusters deployed? (Select all that apply)”. This question helped us capture the diversity of infrastructure setups used in multi-cluster operations.
+
+To better understand the environments in which Kubernetes clusters are deployed, we asked: “Where are your clusters deployed? (Select all that apply)”. This question helped us capture the diversity of infrastructure setups used in multi-cluster operations.
+
+The pie chart represent that majority <b>(49%) of the engineers are use a single cloud provider,</b> making it the most common approach due to its simplicity in management and integration. 
+
+Meanwhile, <b>22% of engineers adopt a multi-cloud strategy</b>, distributing their systems across multiple cloud providers to avoid vendor lock-in, improve reliability, and optimize costs, though this approach introduces additional complexity. 
+
+more likely another <b>21% rely on on-premise data centers</b>, choosing to run their infrastructure on physical servers for reasons such as security, compliance, and greater control over performance. 
+
+Lastly, <b>7% of engineers use hybrid environments</b>, combining both cloud and on-premise solutions, often keeping sensitive workloads on-premise while leveraging the cloud for scalability and less critical operations.
+
+### Tenancy Model: 
+To understand how Kubernetes clusters are shared and managed across teams, we asked: <b>“What is the typical tenancy model of your clusters?”.</b> This question helped us explore whether clusters are dedicated to single teams, shared across multiple teams, or used in a combination of both models.
+
+The pie chart highlights the cluster tenancy models used by engineers, showing that the majority <b>(45%) adopt multi-tenant models,</b> where multiple users or teams share the same cluster resources. Another <b> 21% use single-tenant models</b>, dedicating clusters to a single user or team for greater isolation and control. Additionally, <b>33% of engineers use a combination of both models</b>, likely balancing flexibility and resource efficiency based on different use cases. A very small portion <b>(0.6%) preferred not to specify</b> their tenancy model.
 
 <img src="image1/tenancymodel.png" alt="tenancymodel">
 
+### Engineers’ preferences for automated multi-cluster responses:
+
+The pie chart shows engineers’ preferences for automated multi-cluster responses, with the <b>majority (61%) favoring automated failover</b> to ensure continuity when a cluster becomes unavailable. Meanwhile, <b>23% of engineers prefer no automated action</b>, indicating a preference for manual control over how systems respond. Another <b>12% want auto-scaling based on workload health</b>, allowing systems to adjust resources dynamically as conditions change. A smaller group <b>(3%) prefers policy-based workload redistribution</b>, where workloads are automatically shifted based on predefined rules or policies.
+
+
+### Tooling usage:
+
+To understand which tools engineers rely on for managing multi-cluster environments, we asked: <b>“Which of the tools below do you, or other people on your team, use frequently and rely on for multi-cluster operations?”</b> (Select all that apply). This question was designed to uncover tool adoption patterns across different scales of cluster usage and team practices.
+
 <img src="image1/tool.png" alt="tool">
+
+The data shows a clear relationship between cluster scale and the tools engineers use to manage multi-cluster environments. 
+For <b>smaller setups (1–10 clusters)</b>, engineers typically rely on widely adopted, <b>ready-to-use tools like Argo CD and Rancher,</b> which offer simplicity and efficiency for managing a limited number of clusters. 
+
+As environments grow to a <b>medium scale (11–50 clusters)</b>, tools such as <b>Argo CD remain popular, but there is a noticeable increase in the adoption of Custom Controllers</b>, reflecting a growing need for more tailored automation. 
+
+At the <b>largest scale (50+ clusters)</b>, the pattern shifts significantly, with engineers primarily depending on <b>Custom Controllers</b>, often supported by tools like <b>Kyverno, Thanos, and Flux CD</b> to handle higher complexity and operational demands. 
+
+Across all scales, <b>Custom Controllers consistently appear as a key approach</b>, highlighting their importance in providing <b>flexibility and automation in multi-cluster operations</b>. However, a <b>small portion of respondents reported not using dedicated tools at all</b>, suggesting reliance on <b>manual processes</b> or internal solutions. 
+
+Overall, the findings show that tool choice strongly depends on <b>scale—smaller environments favor standardized</b>, easy-to-use tools, while <b>larger systems require more advanced, customizable solutions</b> demonstrating that there is <b>no single tool that fits all multi-cluster use cases</b>.
 
 
 ## Key findings & Recommendations:
