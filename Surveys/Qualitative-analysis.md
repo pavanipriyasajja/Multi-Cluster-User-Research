@@ -73,6 +73,8 @@ To maintain transparency, each theme was supported with <b>representative, anony
 These examples reflect common patterns while preserving confidentiality.
 
 #### Step 8 : Adding Quantitative Direction to Qualitative Insights
+<img src="image1/common-patterns.png" alt="usecase">
+
 Although this was a qualitative study, we introduced <b>light quantification</b> to understand the relative prominence of themes.
 All values are <b>approximate ranges</b> derived from aggregated analysis, ensuring privacy.
 <b>Most Common to Common Themes</b>
