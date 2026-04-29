@@ -198,6 +198,8 @@ Using the same structured qualitative analysis approach described earlier, we id
 
 ### Primary Themes:
 
+<img src="image1/respond to a critical alert affecting multiple clusters.png" alt="rootcause-challenges">
+
 The following themes emerged as the most dominant patterns across responses:
 #### 1. Root Cause Analysis (41 responses, 26.1%) — Most Dominant Behavior
 A strong emphasis is placed on identifying the <b>underlying cause of incidents</b>. Engineers focus on analyzing <b>system behavior, reviewing recent changes</b>, and <b>tracing failures to shared dependencies</b>. This results in a clear <b>tendency toward deep diagnostic reasoning</b>, with engineers prioritizing a thorough understanding of failures rather than addressing only surface-level symptoms.
@@ -273,6 +275,10 @@ Within this major theme, we further identified several sub-themes associated wit
 
 #### Sub-theme Grouping and Insights
 We grouped the above patterns into higher-level sub-themes:
+
+<img src="image1/Theme-Multicluster managemnt.png" alt="multiclustermanagememnt-challenges">
+
+
 <li><b>Deployment and Configuration (~19%, n = 19):</b> These are the primary friction areas.This indicates that the core workflow of deploying and configuring applications across clusters is the most challenging, often due to setup complexity, environment inconsistency, and deployment management overhead.</li>
 <li><b>Multi-cluster management and Cross-cluster complexity (~14%, n = 14):</b> This confirms multi-cluster coordination as a central pain point. It highlights challenges such as fragmentation, interoperability issues, and lack of system-wide visibility.</li>
 <li><b>Scaling and Resource Management (~14%, n = 14):</b> These reflect strong operational concerns. Engineers struggle with workload distribution, capacity planning, and efficient resource utilization across clusters.</li>
@@ -287,6 +293,8 @@ Additionally, <b>ongoing system management challenges</b> (Scaling, Resource Man
 Our next identified pattern is observability and networking. We combined both into a single theme called <b>visibility and connectivity.(Sub theme Observability= 35+ Sub theme Networking=23= 58 number of responses)</b>
 Observability and networking are closely related because networking is about connecting systems, and observability is about seeing what is happening in those systems. If networking breaks, you often can’t see what’s wrong clearly, and if observability is weak, it becomes hard to figure out network problems. So <b>users usually experience both together as one problem:</b> not being able to clearly see and access what is happening in the system. Since we came up with the theme such as visibility and connectivity
 Let’s deep dive into analysis, in the <b>observability</b> we identified sub themes such as: 
+
+<img src="image1/Theme-Multicluster managemnt - Observability.png" alt="Observability-challenges">
 
 #### 1. Logging & Data Management Challenges
 Logging and data management emerge as a <b>significant challenge</b>, with  <b>8 responses (25.8%)</b> highlighting this issue. 
@@ -316,6 +324,9 @@ The <b>key takeaways on observability</b> highlight a few dominant patterns acro
 
 
 #### Sub Theme : Networking
+
+<img src="image1/Theme-Multicluster managemnt - Networking.png" alt="Networking-challenges">
+
 Network-related challenges reveal several important and primary patterns across responses. <b>Network latency and performance issues (5 mentions, 19%)</b> stand out as a <b>recurring concern,</b> with engineers highlighting <b>latency, throughput, and network sensitivity</b> as factors that directly impact <b>system reliability and user experience.</b> Similarly, <b>connectivity and cross-cluster communication (5 mentions, 19%)</b> emerge as a <b>major friction point</b>, with challenges around <b>network connectivity, inter-cluster communication, load balancing, and network access,</b> especially in <b>multi-cluster environments.</b>
 
 In addition, <b>general networking issues (4 mentions, 15%)</b> reflect <b>broad and unspecific complaints,</b> suggesting <b>underlying systemic complexity</b> and potential difficulties in <b>debugging and root cause identification. Traffic management and routing (3 mentions, 12%)</b> also present a <b>key operational challenge, </b> with concerns around <b>traffic routing, ingress management (e.g., Istio), and load balancing strategies,</b> highlighting the difficulty of managing <b>traffic flow across clusters and services.</b> Lastly, <b>infrastructure and capacity constraints (3 mentions, 12%)</b> point to <b>scaling limitations,</b> including <b>IP capacity, node limits, fault domain sizing, and resource sharing,</b> indicating that <b>network architecture itself can become a bottleneck</b> as systems grow.
@@ -338,6 +349,8 @@ Overall, while these categories have lower counts, they represent <b>important s
 <b>48 responses (~32.2%)</b> fall under operational challenges, indicating that <b>operational complexity is a significant concern, impacting nearly one in three engineers working with multi-cluster systems.</b> Within this operational theme, we further identified the following sub-themes:
 
 [<b>*Note:</b> (Note=Among 48 responses associated with operational complexity and operational complexity and overhead responses 10 which makes 25%)]
+
+<img src="image1/Theme-Multicluster managemnt - Operational complexity.png" alt="Networking-challenges">
 
 <b>Operational complexity & Overhead:</b> 25% of engineers responded with operational complexity and overhead such as engineers face high <b>operational burden, increased cognitive load, and difficulty identifying problems across clusters.</b>
 
