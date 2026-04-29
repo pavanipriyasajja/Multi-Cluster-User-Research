@@ -67,9 +67,18 @@ User research also revealed two <b>uncommon</b> patterns such as <b>dashboard as
 
 ## Quantative Highlights:
 
+<img src="image1/numberofmulticlusterpermonth.png" alt="Multiclusterusage-per-month">
+
+<img src="image1/tenancymodel.png" alt="tenancymodel">
+
+<img src="image1/tool.png" alt="tool">
+
+
 ## Key findings & Recommendations:
 
 From the data analysis five user research areas emerged these are documentation gap, centralized monitoring, AI driven automation, Operational complexity, Developer UX. Let's see how our recommendations could improve these research areas.
+
+<img src="image1/recommendation.png" alt="recommendation">
 
 <li>Review <b>multi-cluster project materials</b> to <b>identify what's missing or outdated. Create practical guides with real examples</b> and work with <b>SIG-Community</b> to <b>build tested documentation</b> for daily engineering work.</li>
 
