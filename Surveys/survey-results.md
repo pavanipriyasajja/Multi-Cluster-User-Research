@@ -33,13 +33,13 @@ Fourth, Region. Engineers deploy clusters across different geographic locations 
 
 And fifth, the <b>most common pattern is Environment separation.</b> Organizations separate <b>development, staging, and production</b> environments. This lets engineers <b>test safely without disturbing live systems.</b>
 
-Let's move on to the next questions, <b>which shows the key challenges engineers face in multi-cluster operations.Our user research identified four major challenge areas<b>: 
+Let's move on to the next questions, <b>which shows the key challenges engineers face in multi-cluster operations.Our user research identified four major challenge areas: 
 
 <img src="image1/Keychallenges-4Themes.png" alt="Key-challenges">
 
 <b>51% struggle with workload management, 39% with observability, 25% with operational complexity,10% with time management.</b>
 
-Engineers struggle daily with cluster management such as <b>stateful workloads, upgrades, configurations, resource distribution, </b>and <b>multi-cluster complexity.</b>
+Engineers struggle daily with cluster management such as stateful workloads, upgrades, configurations, resource distribution, </b>and <b>multi-cluster complexity.</b>
 
 Engineers  struggle to understand <b>what's happening across multiple clusters is very challenging</b> because <b>data is spread across multiple tools.</b> They also complain about <b>networking complexity.</b> During multi-cluster incidents, engineers follow <b>standard on-call</b> processes, 
 
