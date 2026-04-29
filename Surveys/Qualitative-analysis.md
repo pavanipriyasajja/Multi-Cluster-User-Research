@@ -126,6 +126,8 @@ For example:
 
 #### Primary Challenges:
 
+<img src="image1/Understanding Multi-Cluster Debugging Challenges_.png" alt="Debugging-primary-challenges">
+
 <b>Observability Gaps (41.9%): </b>A significant portion of responses highlighted the lack of a <b>unified view across clusters.</b> Participants described challenges such as:
 <li>Fragmented visibility across tools and dashboards</li>
 <li>Difficulty correlating logs, metrics, and traces</li>
