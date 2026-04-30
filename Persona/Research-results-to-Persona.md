@@ -24,7 +24,7 @@ Most importantly, this process helps turn research into action. Without it, <b>r
 
 In simple terms, <b>research results tell what is happening, while personas and journey maps explain who it is happening to and how it happens step by step.</b> This makes it much easier to make informed and effective decisions.
 
-### The process of creating personas and journey maps from raw research data and insights
+## The process of creating personas and journey maps from raw research data and insights
 
 The process begins with <b>raw research data</b> and <b>survey insights</b>, which are analyzed to <b>identify patterns by clustering similar responses and extracting recurring themes.</b> These patterns are then synthesized to define key user pain points and goals. 
 
