@@ -10,7 +10,7 @@ By using the user research methods such as Creating personas and journey maps he
 
 ### What is user(Engineer) Persona?
 
-Personas can be thought of as <b>simplified representations of different types of users.</b> Instead of looking at many individual responses, similar behaviors and challenges are grouped together into one “type” of user. This makes it easier for teams to think about real people rather than abstract data. 
+Personas can be thought of as <b>simplified representations of different types of users.</b> Instead of looking at many individual responses, similar behaviors and challenges are grouped together into one “type” of user. This makes it easier for teams to think about real people rather than abstract data. You can read full article here about the persona: <a href="https://dev.to/priya_sajja_c336921bbda87/what-is-engineer-persona-5e29">Link</a>
 
 For example, instead of saying “some users struggle with deployment,” the team can refer to a specific type of user who regularly faces that challenge and understand their situation more clearly. 
 
@@ -29,7 +29,7 @@ A <b>persona is a research-based representation of a group of users who share si
 
 By moving from <b>raw data → patterns → synthesized insights → personas, </b>we ensure the output is both <b>analytically well-founded and usable for design and product decisions.</b>
 
-<img src=" " alt="persona templete">
+<img src="image2/Gemini_Generated_Image_r2aar9r2aar9r2aa.png" alt="persona templete">
 
 Once we have the synthesized insights, we update those insights into the standart <b>persona templete</b>(A persona template is a simple, structured profile that represents a typical user to help guide design and product decisions.)
 
@@ -40,11 +40,11 @@ For example: common deployment challenges, debugging workflows, or documentation
 
 <b>Journey mapping (In engineering terms workflow mapping)</b>, on the other hand, shows the <b>step-by-step experience of that engineer</b>. Rather than looking at problems in <b>isolation, it connects them into a sequence</b>. 
 
-This helps identify when issues happen—for example, whether a problem occurs at the beginning of a task, during execution, or at the final stage. Seeing the <b>full flow makes it easier to understand how one issue can lead to another.</b>
+This helps identify when issues happen. for example, whether a problem occurs at the beginning of a task, during execution, or at the final stage. Seeing the <b>full flow makes it easier to understand how one issue can lead to another.</b>
 
 This step is important because it helps teams focus on what matters most. Research often reveals many different problems, but not all of them are equally important. <b>By organizing the information into user types and their experiences, it becomes clearer which problems have the biggest impact and should be addressed first.</b>
 
-<img src=" " alt="Workflow mapping templete">
+<img src="image2/Gemini_Generated_Image_wcff43wcff43wcff.png " alt="Workflow mapping templete">
 
 It also helps different teams stay aligned. When people from different backgrounds such as engineering, product, or management look at raw data, they may interpret it differently. <b>Personas and journey maps provide a shared understanding, so everyone is working with the same picture of the user and their challenges.</b>
 
@@ -74,17 +74,4 @@ The process begins with <b>raw research data</b> and <b>survey insights</b>, whi
 
 
 Based on this synthesis, personas are created by structuring the insights into a standardized persona template. Journey maps are subsequently developed to visualize user experiences across different stages. Finally, product insights are derived to inform design decisions and identify opportunities for improvement.
-
-
-
-
-
-
-
-
-
-
-
-<b>Resources: </b>
-You can read full article here about the persona: <a href="https://dev.to/priya_sajja_c336921bbda87/what-is-engineer-persona-5e29">Link</a>
 
