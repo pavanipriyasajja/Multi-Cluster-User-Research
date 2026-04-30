@@ -24,6 +24,32 @@ Most importantly, this process helps turn research into action. Without it, <b>r
 
 In simple terms, <b>research results tell what is happening, while personas and journey maps explain who it is happening to and how it happens step by step.</b> This makes it much easier to make informed and effective decisions.
 
+### The process of creating personas and journey maps from raw research data and insights
+
+The process begins with <b>raw research data</b> and <b>survey insights</b>, which are analyzed to <b>identify patterns by clustering similar responses and extracting recurring themes.</b> These patterns are then synthesized to define key user pain points and goals. 
+
+
+(At a glance) Steps for Creating Personas and Journey Mapping:
+
+→ <b>Pattern Identification</b> (cluster similar responses and extract recurring themes)
+→ <b>Synthesis of Pain Points & Goals</b> (identify and consolidate key user challenges and objectives)
+→ <b>Persona Creation</b> (assemble insights into a structured persona template)
+→ <b>Journey Mapping or workflow Mapping</b> (map user interactions, behaviors, and experiences across stages)
+→ <b>Product Insights</b> (derive actionable opportunities and improvements)
+
+
+Based on this synthesis, personas are created by structuring the insights into a standardized persona template. Journey maps are subsequently developed to visualize user experiences across different stages. Finally, product insights are derived to inform design decisions and identify opportunities for improvement.
+
+
+
+
+
+
+
+
+
+
+
 <b>Resources: </b>
 You can read full article here about the persona: <a href="https://dev.to/priya_sajja_c336921bbda87/what-is-engineer-persona-5e29">Link</a>
 
