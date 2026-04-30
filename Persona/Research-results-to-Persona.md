@@ -22,7 +22,7 @@ It also helps different teams stay aligned. When people from different backgroun
 
 Most importantly, this process helps turn research into action. Without it, <b>research can remain as a collection of findings without clear direction. </b>By clearly defining who the users are and how they experience a process, teams can <b>more easily decide what improvements to make and where to focus their efforts.</b>
 
-In simple terms, <b>research results tell what is happening, while personas and journey maps explain who it is happening to and how it happens step by step.</b> This makes it much easier to make informed and effective decisions.
+In simple terms, <b>research results tell what is happening, while personas and journey maps explain who it is happening to and how it happens step by step.</b> This makes it much <b>easier to make informed and effective production decisions.</b>
 
 ## The process of creating personas and journey maps from raw research data and insights
 
