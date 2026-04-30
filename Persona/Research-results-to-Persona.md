@@ -29,12 +29,19 @@ In simple terms, <b>research results tell what is happening, while personas and 
 The process begins with <b>raw research data</b> and <b>survey insights</b>, which are analyzed to <b>identify patterns by clustering similar responses and extracting recurring themes.</b> These patterns are then synthesized to define key user pain points and goals. 
 
 
+
 (At a glance) Steps for Creating Personas and Journey Mapping:
 
+→ <b>Raw Data + Survey key insights</b>
+
 → <b>Pattern Identification</b> (cluster similar responses and extract recurring themes)
+
 → <b>Synthesis of Pain Points & Goals</b> (identify and consolidate key user challenges and objectives)
+
 → <b>Persona Creation</b> (assemble insights into a structured persona template)
+
 → <b>Journey Mapping or workflow Mapping</b> (map user interactions, behaviors, and experiences across stages)
+
 → <b>Product Insights</b> (derive actionable opportunities and improvements)
 
 
