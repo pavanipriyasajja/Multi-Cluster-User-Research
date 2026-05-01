@@ -1,8 +1,8 @@
-## Hybrid Engineer persona:
+# Hybrid Engineer Persona-Process:
 
 After collecting multi-cluster <b>survey research raw data</b> and summarizing the <b>key findings, </b> the information can still <b>appear fragmented and difficult for us to apply directly to multi-cluster solutions.</b> While the raw research data captures what engineers said and highlights existing challenges, it does not always clearly explain how these challenges impact different types of engineers or when they occur in real-world scenarios.
 
-### What is a hybrid engineer person?
+## What is a hybrid engineer person?
 
 This analysis shows that our research team moved beyond just reviewing raw survey data and instead looked for meaningful patterns among different types of engineers. By doing this, we were able to identify a specific group of users who share similar responsibilities and challenges.
 
@@ -20,7 +20,7 @@ Overall, this interpretation reflects a shift from broad, general data to a more
 [<b>Note</b>: For the rest of the persona we studied open ended questions (qualitative) and quantitative questions. We started working on the Hybrid engineer persona Key elements:]
 
 
-### Scenario: 
+## Scenario: 
 
 To understand Hybrid Engineer workflows in multi-cluster operations, we created a fictional scenario based on real research responses. For this scenario, we identified from raw survey data that Hybrid Engineers deploy and manage multi-cluster environments across cloud, on-premises, and edge locations based on organizational requirements. 
 
@@ -28,14 +28,14 @@ Using this insight, we <b>constructed a scenario involving 16 </b>clusters to be
 
 <b>The resulting scenario describes a Hybrid Engineer deploying and managing 16 workloads across multiple Kubernetes clusters distributed across AWS, GKE, Azure, on-premises data centers, and edge locations.</b>
 
-### Hybrid engineer demographics:
+## Hybrid engineer demographics:
 
 This is another key element to include in the Hybrid Engineer persona, as it is <b>derived from diverse demographic groups</b> identified in the user research raw responses. To mention that Instead of analyzing dozens of individual engineer responses in isolation, we grouped them into a broader Hybrid Engineer persona based on <b>shared characteristics and responsibilities.</b>
 
 These demographics indicate that the Hybrid Engineer role spans <b>multiple engineering backgrounds, including Platform Engineers, Site Reliability Engineers (SREs), Software Developers, Cloud Engineers, and DevOps Engineers.</b>
 
 
-### Hybrid Engineer - Multi-Cluster primary use-case:
+## Hybrid Engineer - Multi-Cluster primary use-case:
 
 Our first key element is multiclsuter primary use case, Based on the user research survey results and the raw responses, We identified the primary use cases of multi-cluster environments to better understand how hybrid engineers operate across distributed infrastructure. These insights were derived through qualitative analysis, where we extracted recurring themes and patterns from the research data.
 
@@ -58,7 +58,7 @@ We found that multi-cluster environments play a critical role in enabling hybrid
 [<b>Note</b>:To develop the remaining key elements derived from qualitative responses, we followed the same process used to identify multi-cluster use cases for the Hybrid Engineer. Similarly, to define the remaining key elements from the quantitative responses, we applied the same process used to analyze the demographics of multi-cluster users.
 Here is the link:  <a href="../Surveys/Analysis-Process-Methods.md">Link</a> ]
 
-### Work Pattern:
+## Work Pattern:
 
 Our next key element focuses on the <b>work patterns of Hybrid Engineers</b>. To better understand <b>how these engineers operate</b>, For this element, we applied a <b>quantitative analysis process</b> to the hybrid engineer’s raw research responses. We identified two primary work patterns, referred to as approaches. 
 
@@ -66,7 +66,7 @@ The majority of engineers follow the primary approach <b>(57%)</b>, where a plat
 
 The secondary approach <b>(16%)</b> involves a centralized infrastructure team managing the clusters, while application teams are given access to specific folders within a Git repository and deploy workloads using Custom Resource Definitions (CRDs) provided by the platform team.
 
-### Tool & Challenges: 
+## Tool & Challenges: 
 
 Our next key element for the Hybrid Engineer focuses on <b>tooling usage and associated challenges</b>, as these play a critical role in operating multi-cluster environments. To develop this element, we applied both <b>quantitative and qualitative analysis to Hybrid Engineers’ open-ended and structured survey responses</b>. 
 
@@ -78,7 +78,7 @@ This section identifies the key tooling landscape and challenges faced by Hybrid
 
 However, significant operational challenges remain, particularly around setup complexity, multi-tenancy management, observability and debugging, cloud–on-prem integration, documentation gaps, and networking/service discovery issues. <b>These findings highlight both the maturity of the tooling ecosystem and the persistent friction in operating multi-cluster systems at scale</b>.
 
-### Cross cluster automated response expectation: 
+## Cross cluster automated response expectation: 
 
 Our next key element focuses on cross-cluster automated response expectations in multi-cluster operations. This is an important area because, based on the <b>multi-cluster user research survey results</b>, we identified a <b>strong need for automation in routine operational tasks</b>. Engineers consistently expressed a desire for <b>AI and automation</b> support to reduce manual effort and improve efficiency. 
 
@@ -92,7 +92,7 @@ The findings highlight a strong and consistent expectation among Hybrid Engineer
 At the same time, the presence of gaps such as alert escalation without action and <b>limited automation</b> in some environments indicates uneven maturity in current operational setups. Overall, these insights emphasize that <b>cross-cluster automated responses are a critical requirement for improving reliability, efficiency, and scalability in modern multi-cluster management systems.</b>
 
 
-### Critical alert type in the multicluster setup:
+## Critical alert type in the multicluster setup:
 
 We consider this as another key element required by Hybrid Engineers in multi-cluster operations. In the user research survey, engineers noted in raw responses that <b>“every alert feels unique,” highlighting the complexity of incident management in distributed environments.</b> To better understand the critical alert types and how Hybrid Engineers respond to them in multi-cluster setups, we applied a quantitative analysis approach to this element.
 
@@ -102,9 +102,86 @@ These findings show that Hybrid Engineers regularly face a diverse and high-impa
 
 Engineers must continuously handle <b>workload placement decisions, service reliability, and cross-cluster coordination</b>, while responding to frequent critical alerts. Overall, this reinforces the <b>need for better automation, workload management strategies, and intelligent alert handling mechanisms to reduce operational burden and improve efficiency</b> in multi-cluster environments.
 
-<img src="image2/Hybrid engineer (1).png" alt="Description of image">
+## Pain Point and Goal Identification Process
 
+Our final key elements in creating the Hybrid Engineer persona are pain points and goals. In this section, we will explain in detail the process we used to identify and define these pain points and goals, using the <b>observability theme as an example</b>. We followed the same structured approach to identify other pain points and goals for the Hybrid Engineer persona.
 
+### 1. Starting Point: Raw Research Inputs
+
+We began with qualitative responses from Hybrid Engineers describing <b>bottlenecks in managing multi-cluster workloads</b>. These responses included challenges such as workload management issues, tool fragmentation, observability gaps, and operational complexity across distributed systems.
+
+The raw data reflected broad, unstructured concerns around:
+
+<li>Multi-cluster workload management difficulties</li>
+<li>Fragmented observability tools and dashboards</li>
+<li>Limited visibility across distributed environments</li>
+<li>High operational overhead in monitoring systems</li>
+
+### 2. Step 1: Pattern Identification (Initial Clustering)
+
+We performed a clustering exercise by grouping similar responses together to identify recurring patterns across the dataset.
+From this process, we identified several early thematic groupings: Workload management challenges, Observability limitations, Networking complexity, Multi-cluster management difficulties, Operational complexity across environments, Skill and knowledge gaps among engineers.
+
+This step helped us move from scattered feedback to structured problem areas.
+
+### 3. Step 2: Deep Thematic Analysis – Observability Focus
+
+We then focused specifically on the Observability-related cluster, which emerged as one of the strongest and most recurring themes.
+Within this cluster, we analyzed detailed pain points such as:Fragmented dashboards and tools across environments, Lack of unified monitoring systems, Difficulty in identifying root cause due to distributed systems, Limited application-level visibility across clusters and regions, High cost and resource overhead in logging and metric storage, Weak integration between monitoring, logging, and alerting systems, Scalability challenges in observability infrastructure, Operational inefficiency caused by tool fragmentation
+
+### 4. Step 3: Sub-Theme Formation and Consolidation
+
+We consolidated similar responses into two primary sub-themes under Observability:
+
+<b>Sub-Theme 1: Unified Observability (System Fragmentation Problem)</b>
+
+This cluster represents fragmentation across tools, dashboards, and control layers in observability systems.
+
+<b>Consolidated pain points:</b>
+
+<li>Lack of a unified observability system across tools and platforms</li>
+<li>Fragmented monitoring spread across multiple dashboards and systems</li>
+<li>Inconsistent access due to different credentials and access levels</li>
+<li>Absence of a centralized control plane or CLI for observability operations</li>
+<li>Weak integration between monitoring, logging, and alerting systems</li>
+<li>High cost and inefficiency in log storage and metric processing</li>
+<li>Scalability limitations in observability infrastructure (e.g., ingestion and aggregation challenges)</li>
+
+<b>Core Insight:</b> Observability systems are fragmented across tools, access layers, and data pipelines, preventing a unified and consistent monitoring experience.
+
+<img src="image2/Hybrid engineer (1).png" alt="Clustering the similar responses and extracting recurring">
+
+<b>Sub-Theme 2: Visibility Gaps (Distributed Understanding Problem)</b>
+
+This cluster reflects limitations in understanding and diagnosing system behavior across distributed environments.
+
+Consolidated pain points:
+
+<li>Lack of clear visibility across multiple clusters and environments</li>
+<li>Difficulty monitoring workloads across distributed systems</li>
+<li>Limited application-level observability across regions</li>
+<li>Reliance on high-level or aggregated metrics instead of granular insights</li>
+<li>Difficulty correlating signals across clusters</li>
+<li>Challenges in identifying root cause of issues</li>
+<li>Operational complexity in managing distributed system monitoring</li>
+
+<b>Core Insight:</b> Engineers lack end-to-end visibility across clusters, making it difficult to understand system behavior and effectively diagnose issues.
+
+### 5. Final Synthesis: Observability Pain Point Definition
+
+After consolidating both sub-themes, we synthesized the final persona-level pain point for Observability:
+Final Observability Pain Point
+
+Hybrid Engineers face two core observability challenges:
+
+<b>Lack of Unified Observability (System Fragmentation Problem)</b>: Observability tools, dashboards, and data pipelines are fragmented, leading to disconnected monitoring experiences.
+<b>Cross-Cluster Visibility Gaps (Distributed System Understanding Problem)</b>: Engineers lack end-to-end visibility across clusters, limiting their ability to understand system behavior and perform effective root cause analysis.
+
+### 6. Outcome in Persona
+
+These synthesized insights were then incorporated into the <b>Hybrid Engineer persona under the Pain Points – Observability section</b>, representing a critical operational challenge in multi-cluster environments.
+
+And here are the remaining pain -points and goals for the hybrid engineer persona.
 
 
 
