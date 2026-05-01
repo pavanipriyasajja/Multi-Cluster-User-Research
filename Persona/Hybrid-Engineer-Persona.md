@@ -28,6 +28,12 @@ Using this insight, we <b>constructed a scenario involving 16 </b>clusters to be
 
 <b>The resulting scenario describes a Hybrid Engineer deploying and managing 16 workloads across multiple Kubernetes clusters distributed across AWS, GKE, Azure, on-premises data centers, and edge locations.</b>
 
+### Hybrid engineer demographics:
+
+This is another key element to include in the Hybrid Engineer persona, as it is <b>derived from diverse demographic groups</b> identified in the user research raw responses. To mention that Instead of analyzing dozens of individual engineer responses in isolation, we grouped them into a broader Hybrid Engineer persona based on <b>shared characteristics and responsibilities.</b>
+
+These demographics indicate that the Hybrid Engineer role spans <b>multiple engineering backgrounds, including Platform Engineers, Site Reliability Engineers (SREs), Software Developers, Cloud Engineers, and DevOps Engineers.</b>
+
 
 ### Hybrid Engineer - Multi-Cluster primary use-case:
 
