@@ -20,7 +20,7 @@ Overall, this interpretation reflects a shift from broad, general data to a more
 [<b>Note</b>: For the rest of the persona we studied open ended questions (qualitative) and quantitative questions. We started working on the Hybrid engineer persona Key elements:]
 
 
-# Scenario: 
+### Scenario: 
 
 To understand Hybrid Engineer workflows in multi-cluster operations, we created a fictional scenario based on real research responses. For this scenario, we identified from raw survey data that Hybrid Engineers deploy and manage multi-cluster environments across cloud, on-premises, and edge locations based on organizational requirements. 
 
