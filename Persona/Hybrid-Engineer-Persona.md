@@ -19,7 +19,17 @@ Overall, this interpretation reflects a shift from broad, general data to a more
 
 [<b>Note</b>: For the rest of the persona we studied open ended questions (qualitative) and quantitative questions. We started working on the Hybrid engineer persona Key elements:]
 
-### 1. Hybrid Engineer - Multi-Cluster primary use-case:
+
+# Scenario: 
+
+To understand Hybrid Engineer workflows in multi-cluster operations, we created a fictional scenario based on real research responses. For this scenario, we identified from raw survey data that Hybrid Engineers deploy and manage multi-cluster environments across cloud, on-premises, and edge locations based on organizational requirements. 
+
+Using this insight, we <b>constructed a scenario involving 16 </b>clusters to better understand how a Hybrid Engineer would deploy, manage, and observe workloads across distributed environments spanning cloud, on-prem, and edge infrastructures. This scenario will later support <b>workflow mapping and deeper analysis of operational behavior.</b>
+
+<b>The resulting scenario describes a Hybrid Engineer deploying and managing 16 workloads across multiple Kubernetes clusters distributed across AWS, GKE, Azure, on-premises data centers, and edge locations.</b>
+
+
+### Hybrid Engineer - Multi-Cluster primary use-case:
 
 Our first key element is multiclsuter primary use case, Based on the user research survey results and the raw responses, We identified the primary use cases of multi-cluster environments to better understand how hybrid engineers operate across distributed infrastructure. These insights were derived through qualitative analysis, where we extracted recurring themes and patterns from the research data.
 
