@@ -21,8 +21,23 @@ Overall, this interpretation reflects a shift from broad, general data to a more
 
 ### 1. Hybrid Engineer - Multi-Cluster primary use-case:
 
-Our first key element is multiclsuter primary use case, 
+Our first key element is multiclsuter primary use case, Based on the user research survey results and the raw responses, We identified the primary use cases of multi-cluster environments to better understand how hybrid engineers operate across distributed infrastructure. These insights were derived through qualitative analysis, where we extracted recurring themes and patterns from the research data.
 
+<b>Methodology</b>
+
+We applied a thematic analysis approach to the qualitative responses. This involved clustering similar responses, identifying recurring patterns, and synthesizing them into key themes that reflect the core use cases of multi-cluster adoption among hybrid engineers.
+
+<b>Key Findings</b>
+
+<b>1. Environment Separation Across the Software Development Lifecycle (65.8% — 50 of 76 responses)</b>
+ We found that one of the primary use cases of multi-cluster environments is the separation of environments across different stages of the software development lifecycle. A majority of respondents (65.8%, 50 out of 76) indicated that hybrid engineers use multiple clusters to isolate production and non-production environments, ensuring better control, security, and stability. This separation helps reduce the risk of unintended impacts on production systems and enables safer testing and experimentation.
+
+<b>2. Workload Distribution for Resilience and Availability (40.8% — 31 of 76 responses)</b>
+ We also identified workload distribution across multiple clusters and geographic regions as another key use case. Approximately 40.8% of respondents (31 out of 76) highlighted this pattern, where hybrid engineers align workloads with fault domains to improve system robustness and resilience. By distributing workloads, organizations can achieve higher availability and maintain service continuity, even during planned or unplanned disruptions such as Kubernetes upgrades, storage maintenance, or network failures
+
+<b>Conclusion</b>
+
+We found that multi-cluster environments play a critical role in enabling hybrid engineers to manage complex, distributed systems effectively. Environment isolation and workload distribution emerged as the two primary use cases, both contributing to improved reliability, scalability, and operational efficiency.
 
 
 
