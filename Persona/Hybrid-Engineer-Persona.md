@@ -16,3 +16,22 @@ Out of the <b>170 total survey participants, 72 engineers fit into this category
 
 Their experiences help us highlight common pain points, goals, and operational challenges associated with hybrid systems.
 Overall, this interpretation reflects a shift from broad, general data to a more focused understanding of a specific, high-impact user group, <b>enabling more relevant and actionable product or design decisions.</b>
+
+[<b>Note</b>: For the rest of the persona we studied open ended questions (qualitative) and quantitative questions. We started working on the Hybrid engineer persona Key elements:]
+
+### 1. Hybrid Engineer - Multi-Cluster primary use-case:
+
+Our first key element is multiclsuter primary use case, 
+
+
+
+
+
+
+
+
+
+
+
+
+
