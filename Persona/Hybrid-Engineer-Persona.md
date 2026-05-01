@@ -76,6 +76,15 @@ The findings highlight a strong and consistent expectation among Hybrid Engineer
 At the same time, the presence of gaps such as alert escalation without action and <b>limited automation</b> in some environments indicates uneven maturity in current operational setups. Overall, these insights emphasize that <b>cross-cluster automated responses are a critical requirement for improving reliability, efficiency, and scalability in modern multi-cluster management systems.</b>
 
 
+### Critical alert type in the multicluster setup:
+
+We consider this as another key element required by Hybrid Engineers in multi-cluster operations. In the user research survey, engineers noted in raw responses that <b>“every alert feels unique,” highlighting the complexity of incident management in distributed environments.</b> To better understand the critical alert types and how Hybrid Engineers respond to them in multi-cluster setups, we applied a quantitative analysis approach to this element.
+
+From the analysis, we identified the most common alert types reported by engineers in multi-cluster environments: <b>71% </b> reported pod crashes and restarts, <b>58% </b>reported cluster health degradation, <b>52% </b>reported API server unresponsiveness, <b>39% </b>reported inter-cluster network issues, and <b>24% </b>reported inconsistent workload placement.
+
+These findings show that Hybrid Engineers regularly face a diverse and high-impact set of alerts in multi-cluster environments, with <b>pod failures and cluster health issues being the most dominant. </b> This highlights not only <b>observability challenges</b> but also the <b>operational complexity</b> of managing workloads across clusters in <b>day-to-day operations</b>. 
+
+Engineers must continuously handle <b>workload placement decisions, service reliability, and cross-cluster coordination</b>, while responding to frequent critical alerts. Overall, this reinforces the <b>need for better automation, workload management strategies, and intelligent alert handling mechanisms to reduce operational burden and improve efficiency</b> in multi-cluster environments.
 
 
 
