@@ -66,7 +66,9 @@ However, significant operational challenges remain, particularly around setup co
 
 Our next key element focuses on cross-cluster automated response expectations in multi-cluster operations. This is an important area because, based on the <b>multi-cluster user research survey results</b>, we identified a <b>strong need for automation in routine operational tasks</b>. Engineers consistently expressed a desire for <b>AI and automation</b> support to reduce manual effort and improve efficiency. 
 
-These insights were reflected across both qualitative and quantitative responses, making this a <b>critical consideration for Hybrid Engineer workflows and multi-cluster management</b>. The objective of this analysis was to better understand the specific expectations engineers have for cross-cluster automated responses when operating in multi-cluster environments. To explore this, we applied a quantitative analysis method to the Hybrid engineer responses.
+These insights were reflected across both qualitative and quantitative responses, making this a <b>critical consideration for Hybrid Engineer workflows and multi-cluster management</b>. The objective of this analysis was to better understand the specific expectations engineers have for cross-cluster automated responses when operating in multi-cluster environments. To explore this, 
+
+we applied a quantitative analysis method to the Hybrid engineer responses.
 From the analysis, we identified the following key automation expectations: <b>64% </b>of engineers expect automated failover, <b>45% </b>experience alert escalation without actionable response, <b>10%</b> report having no automation, <b>57% </b>expect auto-scaling based on workload health, and <b>40% </b>support policy-based workload redistribution.
 
 The findings highlight a strong and consistent expectation among Hybrid Engineers for increased automation in multi-cluster operations, particularly through <b>AI-driven and policy-based systems.</b> Engineers are looking to reduce manual intervention in routine tasks such as failover handling, alert management, scaling, and workload redistribution. 
