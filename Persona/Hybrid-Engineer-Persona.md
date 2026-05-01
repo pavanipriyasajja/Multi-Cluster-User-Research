@@ -39,6 +39,16 @@ We applied a thematic analysis approach to the qualitative responses. This invol
 
 We found that multi-cluster environments play a critical role in enabling hybrid engineers to manage complex, distributed systems effectively. Environment isolation and workload distribution emerged as the two primary use cases, both contributing to improved reliability, scalability, and operational efficiency.
 
+[<b>Note</b>:To develop the remaining key elements derived from qualitative responses, we followed the same process used to identify multi-cluster use cases for the Hybrid Engineer. Similarly, to define the remaining key elements from the quantitative responses, we applied the same process used to analyze the demographics of multi-cluster users.
+Here is the link:  <a href="../Surveys/Analysis-Process-Methods.md">Link</a> ]
+
+### Work Pattern:
+
+Our next key element focuses on the <b>work patterns of Hybrid Engineers</b>. To better understand <b>how these engineers operate</b>, For this element, we applied a <b>quantitative analysis process</b> to the hybrid engineer’s raw research responses. We identified two primary work patterns, referred to as approaches. 
+
+The majority of engineers follow the primary approach <b>(57%)</b>, where a platform team owns and manages the clusters, provides application teams with namespaces (either single-cluster or multi-cluster), and enables them to deploy workloads through Git repositories using allowlisted resources.
+
+The secondary approach <b>(16%)</b> involves a centralized infrastructure team managing the clusters, while application teams are given access to specific folders within a Git repository and deploy workloads using Custom Resource Definitions (CRDs) provided by the platform team.
 
 
 
