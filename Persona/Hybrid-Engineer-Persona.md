@@ -102,7 +102,7 @@ These findings show that Hybrid Engineers regularly face a diverse and high-impa
 
 Engineers must continuously handle <b>workload placement decisions, service reliability, and cross-cluster coordination</b>, while responding to frequent critical alerts. Overall, this reinforces the <b>need for better automation, workload management strategies, and intelligent alert handling mechanisms to reduce operational burden and improve efficiency</b> in multi-cluster environments.
 
-<img src="image2/image.jpg" alt="Description of image">
+<img src="image2/Hybrid engineer (1).png" alt="Description of image">
 
 
 
