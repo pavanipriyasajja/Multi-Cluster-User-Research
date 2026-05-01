@@ -50,6 +50,17 @@ The majority of engineers follow the primary approach <b>(57%)</b>, where a plat
 
 The secondary approach <b>(16%)</b> involves a centralized infrastructure team managing the clusters, while application teams are given access to specific folders within a Git repository and deploy workloads using Custom Resource Definitions (CRDs) provided by the platform team.
 
+### Tool & Challenges: 
+
+Our next key element for the Hybrid Engineer focuses on <b>tooling usage and associated challenges</b>, as these play a critical role in operating multi-cluster environments. To develop this element, we applied both <b>quantitative and qualitative analysis to Hybrid Engineers’ open-ended and structured survey responses</b>. 
+
+From the analysis, we identified a range of commonly used tools across different categories, including <b>Multi-Cluster Control & Orchestration tools</b> such as Custom Controllers, Rancher, and OpenShift Advanced Cluster Management (ACM); <b>Cluster Lifecycle & Infrastructure Provisioning tools </b>such as Terraform and Cluster API; <b>Multi-Cluster Networking & Service Connectivity tools</b> such as Istio and Cilium Cluster Mesh; GitOps & Application Deployment tools for <b>multi-cluster setups</b> such as Argo CD and Flux CD; <b>Observability tools</b> across clusters such as Thanos and Grafana; and <b>Policy & Governance</b> tools such as Kyverno and OPA Gatekeeper. 
+
+In addition, engineers highlighted several key challenges, with <b>63% reporting setup complexity</b>, <b>47% </b>citing issues related to <b>multi-tenancy access control, observability, and debugging</b>, <b>40% </b>experiencing <b>cloud and on-premises integration</b> challenges, <b>38% </b>identifying <b>poor documentation</b>, and <b>37% reporting networking and service discovery</b> issues.
+
+This section identifies the key tooling landscape and challenges faced by Hybrid Engineers in multi-cluster environments, based on combined qualitative and quantitative analysis. Engineers rely on a broad set of tools across orchestration, infrastructure provisioning, networking, GitOps, observability, and governance. 
+
+However, significant operational challenges remain, particularly around setup complexity, multi-tenancy management, observability and debugging, cloud–on-prem integration, documentation gaps, and networking/service discovery issues. <b>These findings highlight both the maturity of the tooling ecosystem and the persistent friction in operating multi-cluster systems at scale</b>.
 
 
 
