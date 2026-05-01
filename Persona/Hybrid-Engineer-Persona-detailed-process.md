@@ -205,5 +205,5 @@ cross-cluster visibility through centralized observability systems can significa
 
 ### final Step:
 
-Once we have defined all the key elements of the persona, we assemble them into a structured persona template and name our Hybrid Engineer Alex. In the next section, we will explore Alex—the Hybrid Engineer persona—along with the key findings derived from the research, and how this persona informs and supports our product decisions.
+Once we have defined all the key elements of the persona, we assemble them into a structured persona template and name our Hybrid Engineer Alex. In the next section, we will explore Alex—the Hybrid Engineer persona, along with the key findings derived from the research, and how this persona informs and supports our product decisions.
 
