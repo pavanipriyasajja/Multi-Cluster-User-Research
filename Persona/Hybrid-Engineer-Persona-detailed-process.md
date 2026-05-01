@@ -207,3 +207,10 @@ cross-cluster visibility through centralized observability systems can significa
 
 Once we have defined all the key elements of the persona, we assemble them into a structured persona template and name our Hybrid Engineer Alex. In the next section, we will explore Alex—the Hybrid Engineer persona, along with the key findings derived from the research, and how this persona informs and supports our product decisions.
 
+### Tools used to build the hybrid engineer persona: (Accessibility is more important for developers and non-UX teammates)
+
+We used <b>Google Sheets and Google Docs</b> to document our persona instead of tools like Figma or Miro, which are commonly used for creating and presenting personas. 
+
+Since our team includes developers as well as non-UX stakeholders, it was important to choose tools that are easily accessible and reduce complexity when reviewing and providing feedback. Therefore, we selected Google Sheets and Docs to support collaboration, feedback collection, and the development of persona and journey mapping artifacts.
+
+
