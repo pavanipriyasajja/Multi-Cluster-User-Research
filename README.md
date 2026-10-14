@@ -20,11 +20,12 @@ Our <b>goal</b> is to make complex multi cluster systems easy to use and turn di
 
 ## So far what we did: 
 
-We conducted the surveys (<a href="Surveys/Survey-design.md">Design</a>, <a href="Surveys/Analysis-Process-Methods.md">Analysis Methods & Process<a/>) one of the user research method and produced the results in the KubeCon NA 2025 (<a href="https://sched.co/27Nlj">Presentation and video</a> )
+We conducted the surveys (<a href="Surveys/Survey-design.md">Design</a>, <a href="Surveys/Analysis-Process-Methods.md">Analysis Methods & Process<a/>) one of the user research method and produced the results in the KubeCon NA 2025 (<a href="https://sched.co/27Nlj">Presentation and video</a> ), Then We transformed the survey findings into a evidence based research to Hybrid Engineer persona and user journey map, highlighting key user needs, challenges, and workflows. We also presented these findings at KubeCon + CloudNativeCon Europe 2026.<a href="https://sched.co/2EF5b">Presentation Slides & Video recordings</a> 
+
 
 ## 📌 Status of the Project:
 
-Currently we are working on transforming survey results into Hybrid engineer persona and journey mapping and we are presenting them in the KubeCon EU 2026, <a href="https://sched.co/2EF5b">Talk information</a> 
+We conducted 1:1 user interviews with engineers to gain deeper insights into their <b>deployment, observability, and maintenance workflows</b> across Kubernetes multi-cluster environments. These interviews helped us uncover detailed operational challenges, pain points, and workflow gaps that were not fully captured in the initial survey. We are presenting these research findings at <b>KubeCon + CloudNativeCon North America 2026</b><a href="https://tinyurl.com/2ha2549t">Talk information</a> 
 
 ## Our next steps:
 
