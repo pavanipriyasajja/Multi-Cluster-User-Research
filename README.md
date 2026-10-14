@@ -25,11 +25,11 @@ We conducted the surveys (<a href="Surveys/Survey-design.md">Design</a>, <a href
 
 ## 📌 Status of the Project:
 
-We conducted 1:1 user interviews with engineers to gain deeper insights into their <b>deployment, observability, and maintenance workflows</b> across Kubernetes multi-cluster environments. These interviews helped us uncover detailed operational challenges, pain points, and workflow gaps that were not fully captured in the initial survey. We are presenting these research findings at <b>KubeCon + CloudNativeCon North America 2026</b><a href="https://tinyurl.com/2ha2549t">Talk information</a> 
+We conducted 1:1 user interviews with engineers to gain deeper insights into their <b>deployment, observability, and maintenance workflows</b> across Kubernetes multi-cluster environments. These interviews helped us uncover detailed operational challenges, pain points, and workflow gaps that were not fully captured in the initial survey. We are presenting these research findings at <b>KubeCon + CloudNativeCon North America 2026</b>. <a href="https://tinyurl.com/2ha2549t">Talk information</a> 
 
 ## Our next steps:
 
-We are conducting in-depth User interviews to gather more information about multi cluster challenges and expectations from the engineers to understand tools, workflows, and daily practices<a href="https://multicluster.sigs.k8s.io/contributing/user-research/">Learn more from our website</a> 
+We are conducting in-depth User interviews to gather more information about multi cluster challenges and expectations from the <b>engineers who deploy applications on top of Kubernetes multi-clusters</b> to understand tools, workflows, and daily practices<a href="https://multicluster.sigs.k8s.io/contributing/user-research/">Learn more from our website</a> 
 
 Are you interested in participating in user research tasks:
 
