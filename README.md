@@ -20,7 +20,7 @@ Our <b>goal</b> is to make complex multi cluster systems easy to use and turn di
 
 ## So far what we did: 
 
-We conducted the surveys (<a href="Surveys/Survey-design.md">Design</a>, <a href="Surveys/Analysis-Process-Methods.md">Analysis Methods & Process<a/>) one of the user research method and produced the results in the KubeCon NA 2025 (<a href="https://sched.co/27Nlj">Presentation and video</a> ), Then We transformed the survey findings into a evidence based research to Hybrid Engineer persona and user journey map, highlighting key user needs, challenges, and workflows. We also presented these findings at KubeCon + CloudNativeCon Europe 2026.<a href="https://sched.co/2EF5b">Presentation Slides & Video recordings</a> 
+We conducted the surveys (<a href="Surveys/Survey-design.md">Design</a>, <a href="Surveys/Analysis-Process-Methods.md">Analysis Methods & Process<a/>) one of the user research method and produced the results in the KubeCon NA 2025 (<a href="https://sched.co/27Nlj">Presentation and video</a> ), Then We transformed the survey's evidence based research findings into a Hybrid Engineer persona and user journey map, highlighting key user needs, challenges, and workflows. We also presented these findings at KubeCon + CloudNativeCon Europe 2026.<a href="https://sched.co/2EF5b">Presentation Slides & Video recordings</a> 
 
 
 ## 📌 Status of the Project:
