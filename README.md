@@ -28,7 +28,7 @@ Currently we are working on transforming survey results into Hybrid engineer per
 
 ## Our next steps:
 
-We are conducting in-depth User interviews to gather more information about multi cluster challenges and expectations from the engineers to understand tools, workflows, and daily practices<a href="https://multicluster.sigs.k8s.io/">Learn more from our website</a> 
+We are conducting in-depth User interviews to gather more information about multi cluster challenges and expectations from the engineers to understand tools, workflows, and daily practices<a href="https://multicluster.sigs.k8s.io/contributing/user-research/">Learn more from our website</a> 
 
 Are you interested in participating in user research tasks:
 
