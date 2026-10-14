@@ -64,9 +64,7 @@ Implementing multi-cluster platform and processes
 - The reality of cross-cluster operations  such as  inconsistent APIs, network fragmentation, and configuration sprawl that reveals itself gradually.
 - The turning point comes when teams quantify the operational burden and adopt unified management approaches, transforming chaos into a scalable, maintainable architecture
 
-Here is the actual Journey mapping document: 
-
-<a href=”https://docs.google.com/spreadsheets/d/1ZYSuzlvtPmaZDKerbNnqorM8meVGBdjFq5Vpd28IGj4/edit?usp=sharing”> Link</a>
+<b>Here is the actual Journey mapping document:</b> <a href="https://docs.google.com/spreadsheets/d/1ZYSuzlvtPmaZDKerbNnqorM8meVGBdjFq5Vpd28IGj4/edit?usp=sharing"> Link</a>
 
 
 <h2>Conclusion</h2>
