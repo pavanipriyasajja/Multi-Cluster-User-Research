@@ -111,7 +111,11 @@ We explored how engineers monitored cluster and application health, investigated
 <b>3. Maintenance Workflows</b>
 We examined how engineers performed cluster upgrades, configuration changes, security updates, and lifecycle management while minimizing operational risks and service disruptions.
 
+<h2>Research Outcome</h2>
 
+The interviews provided a deeper understanding of the operational complexity engineers experienced when working with Kubernetes multi-cluster environments.
+
+By combining broad survey insights with detailed qualitative interviews, we developed a more comprehensive understanding of engineers' workflows, operational challenges, decision-making processes, and opportunities to improve the Kubernetes multi-cluster developer experience.
 
 
 
