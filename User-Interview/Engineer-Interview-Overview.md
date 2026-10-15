@@ -76,6 +76,29 @@ Research conducted through <b>Google Meet, Communication platform with participa
 
 <b>Research data analysis:</b> Clean up the raw data + labeling and coding the raw data + pattern identification + Thematic analysis (To learn more about the process of analysis please read our documentation form the Github repo: https://github.com/pavanipriyasajja/Multi-Cluster-User-Research/blob/main/Surveys/Analysis-Process-Methods.md 
 
+<h2>Research Data Analysis Methodology</h2>
+
+We used a qualitative thematic analysis approach, supported by workflow analysis and cross-participant comparison, to examine the 1:1 user interview data.
+
+The analysis was structured into seven stages:
+
+<b>Data Preparation:</b> Organized and cleaned interview transcripts and participant information.
+
+<b>Data Familiarization:</b> Reviewed interviews to understand operational environments, workflows, and reported challenges.
+
+<b>Initial Coding:</b> Identified and labeled meaningful observations related to engineering behaviors, challenges, decisions, and workarounds.
+
+<b>Theme Development:</b> Grouped related codes into broader themes across deployment, observability, and maintenance.
+
+<b>Workflow and Cross-Participant Analysis:</b> Examined operational processes and compared experiences across different engineering roles, tools, and cluster scales.
+
+<b>Research Synthesis:</b> Consolidated recurring patterns into key findings, operational impacts, and potential improvement opportunities.
+
+<b>Survey Comparison:</b> Compared interview findings with the initial survey results to identify validated, expanded, contrasting, and newly discovered challenges.
+
+This approach enabled us to move beyond individual interview observations and develop an evidence-based understanding of recurring multi-cluster operational challenges and developer experience improvement opportunities.
+
+
 
 <h2>Research Focus Areas</h2>
 
