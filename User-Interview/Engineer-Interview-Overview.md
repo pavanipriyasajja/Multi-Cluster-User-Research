@@ -74,7 +74,7 @@ The semi-structured format allowed us to maintain consistency across interviews 
 
 Research conducted through <b>Google Meet, Communication platform with participants : Email</b>
 
-<b>Research data analysis:</b> Clean up the raw data + labeling and coding the raw data + pattern identification + Thematic analysis (To learn more about the process of analysis please read our documentation form the Github repo: Surveys/Analysis-Process-Methods.md
+<b>Research data analysis:</b> Clean up the raw data + labeling and coding the raw data + pattern identification + Thematic analysis (To learn more about the process of analysis please read our documentation form the Github repo: https://github.com/pavanipriyasajja/Multi-Cluster-User-Research/blob/main/Surveys/Analysis-Process-Methods.md 
 
 
 <h2>Research Focus Areas</h2>
