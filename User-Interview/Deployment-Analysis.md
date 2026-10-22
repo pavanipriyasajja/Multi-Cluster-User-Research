@@ -1,0 +1,4 @@
+We asked engineers to describe their end-to-end deployment workflows to better understand their processes, experiences, and challenges throughout the deployment journey.
+We kept this question open-ended, allowing participants to freely share their experiences, challenges, and pain points without limiting their responses to predefined topics.
+During the discussions, we encouraged engineers to identify areas where they experienced difficulties, explain which steps required manual intervention, and highlight where automation was already in place or could potentially improve their workflows.
+This approach helped us gain deeper insights into real-world deployment practices, identify workflow inefficiencies, and uncover opportunities to improve the developer experience in Kubernetes multi-cluster environments.
