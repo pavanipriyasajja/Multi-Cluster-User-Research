@@ -249,7 +249,7 @@ Participant Example : CircleCI detects a preview branch and starts the process t
 
 Stage result: The deployment workflow starts.
 
-<b>Stage 4 — Build and generate artifacts</b>
+<b>Stage 4 : Build and generate artifacts</b>
 
 Participant Example :The system builds the service, pushes the container image, replicates it across regions, and packages a Helm chart.
 
@@ -338,9 +338,13 @@ For multi-cluster environments, the post-deployment stage deserves particular at
 <h2>UX Recommendations for Deployment: </h2>
 
 <b>Automation + Control </b> → Automate repetitive work while preserving human decisions.
+
 <b>Failure & Recovery</b> → Make partial failures understandable and actionable.
+
 <b>Visibility</b> → See deployment state across all clusters and workflows
+
 <b>Deployment + Health</b> → Connect rollout progress with operational health.
+
 <b>Reduced Complexity</b> → Bring information from fragmented systems into one contextual deployment experience.
 
 
