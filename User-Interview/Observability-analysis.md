@@ -96,7 +96,36 @@ Argo CD appeared repeatedly as an initial diagnostic point, although it was ofte
 Participants often have significant observability information available. The difficulty is frequently connecting the information, rather than simply collecting more telemetry.
 
 <b>Stage 5 : Isolate the Root Cause</b>
+When standard observability does not explain the failure, investigation becomes progressively deeper.
+A common drill-down pattern was: <b>Application → Workload → Pod → Events → Node → Host/Infrastructure</b>
+For network-related problems, investigation could continue into: <b>Service communication → Network telemetry → Packet capture</b>
 
+Engineers also investigate: Recent code changes, Configuration changes, Network policies, Dependencies, Infrastructure changes, Certificates, Tokens, Identity/signatures, Permissions
+
+Complex troubleshooting still requires substantial manual reasoning and domain expertise. Observability may identify the symptom without directly explaining the underlying cause.
+
+<b>Cross Cluster comparison</b>
+
+One particularly important multi-cluster behavior emerged. When an application works in one cluster but fails in another, engineers compare the environments.
+The reasoning becomes: <b>Healthy Cluster A ↔ Unhealthy Cluster B</b>
+
+Engineers look for differences in: Configuration, Networking, Dependencies, Infrastructure, Permissions, Certificates, Application behavior, Recent changes
+
+Cross-cluster comparison is an important troubleshooting technique, but much of this comparison appears to be performed manually. The engineer is essentially trying to answer: <b>"What is different about the failing cluster?"</b>
+
+<b>Stage 6 : Mitigation and Recovery</b> Participants demonstrated several different recovery strategies.
+Manual recovery: Engineer identifies the problem and manually changes the affected resource or configuration.
+Emergency intervention: Some failures require elevated permissions or direct infrastructure access.
+Automated self-healing: In more automated environments (Alert → Self-healing → Automated remediation) The on-call engineer becomes involved only if remediation fails.
+
+Rebuild instead of repair : participant described severe cluster failures where rebuilding was faster than continuing diagnosis (Remove from traffic → Save snapshot if needed → Delete cluster → Rebuild → Restore) 
+
+Controlled fleet recovery : Infrastructure changes can be rolled out progressively (Cluster 1 → Change → Validate → Cluster 2 → Change → Validate)
+If a cluster becomes unhealthy: <b>Stop rollout → Investigate → Fix → Continue</b>
+
+Recovery strategies vary substantially according to infrastructure design and automation maturity. However, at multi-cluster scale, recovery introduces an additional concern:How can engineers restore service without spreading the failure?
+
+<b>Validate Recovery</b>
 
 
 
