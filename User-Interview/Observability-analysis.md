@@ -88,8 +88,14 @@ There is no single entry point into troubleshooting., The first indication of an
 In multi-cluster incidents, another important question appears: Are other clusters experiencing the same problem?
 Scope identification becomes more important in multi-cluster environments because engineers need to understand the blast radius, not simply locate one unhealthy resource.
 
-<b>Stage 3: Assess Initial Health</b>
+<b>Stage 3: Assess Initial Health</b> Once the affected environment is identified, engineers typically perform a quick health assessment. Common starting points included: Dashboards, Developer portals, Argo CD, Kubernetes monitoring, Deployment status, Application health, Cluster health, Pod/workload health
+Argo CD appeared repeatedly as an initial diagnostic point, although it was often only the beginning of the investigation. Engineers prefer to begin with a high-level health view before moving into deeper technical diagnostics.
 
+<b>Stage 4 : Gather Observability Evidence</b> If the initial health view does not explain the problem, engineers gather additional evidence. Signals included: Application logs, Kubernetes logs, Metrics, Distributed traces, Kubernetes events, CPU usage, Memory usage, Disk usage, Network telemetry, Deployment state, Infrastructure status, Service-mesh information. 
+
+Participants often have significant observability information available. The difficulty is frequently connecting the information, rather than simply collecting more telemetry.
+
+<b>Stage 5 : Isolate the Root Cause</b>
 
 
 
