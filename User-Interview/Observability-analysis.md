@@ -105,6 +105,8 @@ Troubleshooting begins with an indication that something is wrong. (Signals incl
 
 There is no single entry point into troubleshooting., The first indication of an incident can originate from the observability system, deployment pipeline, application, or end user.
 
+<b>Break: </b> Different entry points provide different levels of context.
+
 <b>Stage 2 : Identify the Scope</b> 
 
 After receiving a signal, engineers try to determine: Where is the problem occurring, and how widespread is it?, (They identify:- Application/service, Environment, Namespace, Cluster, Region, Affected workload, One versus multiple clusters)
@@ -112,17 +114,23 @@ After receiving a signal, engineers try to determine: Where is the problem occur
 In multi-cluster incidents, another important question appears: Are other clusters experiencing the same problem?
 Scope identification becomes more important in multi-cluster environments because engineers need to understand the blast radius, not simply locate one unhealthy resource.
 
+<b>Break: </b> Determining scope and blast radius
+
 <b>Stage 3: Assess Initial Health</b> 
 
 Once the affected environment is identified, engineers typically perform a quick health assessment. Common starting points included: Dashboards, Developer portals, Argo CD, Kubernetes monitoring, Deployment status, Application health, Cluster health, Pod/workload health
 
 Argo CD appeared repeatedly as an initial diagnostic point, although it was often only the beginning of the investigation. Engineers prefer to begin with a high-level health view before moving into deeper technical diagnostics.
 
+<b>Break: </b> Health information is distributed
+
 <b>Stage 4 : Gather Observability Evidence</b> 
 
 If the initial health view does not explain the problem, engineers gather additional evidence. Signals included: Application logs, Kubernetes logs, Metrics, Distributed traces, Kubernetes events, CPU usage, Memory usage, Disk usage, Network telemetry, Deployment state, Infrastructure status, Service-mesh information. 
 
 Participants often have significant observability information available. The difficulty is frequently connecting the information, rather than simply collecting more telemetry.
+
+<b>Break: </b> Fragmented observability
 
 <b>Stage 5 : Isolate the Root Cause</b>
 
@@ -143,6 +151,8 @@ Engineers look for differences in: Configuration, Networking, Dependencies, Infr
 
 Cross-cluster comparison is an important troubleshooting technique, but much of this comparison appears to be performed manually. The engineer is essentially trying to answer: <b>"What is different about the failing cluster?"</b>
 
+<b> Break: </b> Manual correlation and cross-cluster comparison
+
 <b>Stage 6 : Mitigation and Recovery</b> 
 
 Participants demonstrated several different recovery strategies.
@@ -157,11 +167,15 @@ If a cluster becomes unhealthy: <b>Stop rollout → Investigate → Fix → Cont
 
 Recovery strategies vary substantially according to infrastructure design and automation maturity. However, at multi-cluster scale, recovery introduces an additional concern:How can engineers restore service without spreading the failure?
 
+<b>Break: </b> Recovery varies and can require manual intervention
+
 <b>Stage 7 :Validate Recovery</b> 
 
 Troubleshooting does not end when a change is made. Engineers need to confirm: Cluster is healthy, Application is healthy, Workloads recovered, Alerts cleared, Dependencies are functioning, Other clusters remain healthy, It is safe to continue a rollout
 
 Observability serves two purposes: Detecting failures and confirming successful recovery. Fleet-wide validation becomes especially important when changes are being applied across multiple clusters.
+
+<b>Break: </b> Fleet-wide validation
 
 
 <h2>Observed biggest challenge</h2> 
